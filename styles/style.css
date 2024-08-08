@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+                
+
+.inter-font{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    color: white;
+}
+span{
+    font-family: "miama", cursive;
+    font-weight: 400;
+    font-size: 7.875rem;
+}
+
+*{
+    /* max-width: 1440px; */
+    margin: 0 auto;
+    /* padding: 0 190px; */
+    
+    
+}
+body{
+    background-color: rgb(0, 0, 0);   
+}    
+
+
+header{
+    max-width: 100%;
+    height: 715px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    background: linear-gradient(
+        to bottom,
+        rgb(17, 17, 17),         
+        rgba(119, 119, 119, 0.116)
+    )
+}    
+
+
+h2{
+    font-family: "Inter";
+    font-weight: 800;
+    font-size: 3rem;
+    color: #E6533C;
+    font-style: italic;
+    margin-right: 200px; 
+}
+.container{
+    margin-top: 57px;  
+    /* border: 1px solid white;  */
+    
+}
+.flex{
+    display: flex;  
+}
+.lists{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 47px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 12px; 
+    margin-bottom: 28px; 
+}
+.list{
+    font-family: "Inter";
+    font-size: 1.2rem;
+    color: #ffff;
+    text-decoration: none;  
+}
+.home{
+    padding: 9px 26px;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    background-color: #E6533C;
+    border-radius: 46px;
+}    
+
+
+
+#get_body_container{
+    width: 520px;
+    /* margin-top: 96px; */
+
+}
+.Get_body{
+    color: white;
+    font-family: "inter";
+    font-size: 4.875rem;
+    font-weight: 900;
+}
+.body_description{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.5px;  
+    margin-top: 28px;
+}    
+.button_margin{
+    margin-top: 28px;
+}
+#button{
+    font-size: 1.2rem;
+    font-weight: 500;
+    max-width: 224px;
+    color: white;
+    padding: 16px 30px;
+    border-radius: 42px;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.button{
+    font-size: 1.2rem;
+    font-weight: 500;
+    max-width: 224px;
+    color: white;
+    padding: 16px 30px;
+    border-radius: 42px;
+    background-color: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #E6533C;
+    cursor: pointer;
+}    
+.container_image{
+    /* Images 2 */
+   /* position: absolute; */
+}
+.hero_right{
+    position: relative;
+    /* margin-right: 0rem; */
+}
+.right_top{
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    width: 204px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 23px;
+}
+.vedio{
+    font-family: "inter";
+    font-size: 2.1rem;
+    font-weight: 900;
+    color: white;
+    
+}
+.All_dess{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;  
+    /* margin-top: 28px; */
+}
+.right_btn{
+    position: absolute;
+    top: 75%;
+    right: 80%;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    width: 204px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 23px; 
+}
+.red_circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #E6533C;
+}
+.vedio_num{
+    font-family: "inter";
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: white;
+}
