@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header>
+    <header id="flex_item"> 
         <nav class="container">
-            <div class="flex">
+            <div class="header_logo">
                 <div>
-                    <h2>Fitness</h2>  
+                    <h2>Fitness</h2>
                 </div>
-                <div>
+                <div class="hidden-element">
                     <ul class="lists">
                         <li><a href="" class="list home">Home</a></li>
                         <li><a href="" class="list">Service</a></li>
@@ -30,8 +30,8 @@
                     <p class="body_description">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>                   
                 </div>
                 <div class="button_margin">
-                    <button class="button">Join Club Now!</button>
-                    <button id="button">Download App</button>
+                    <button class="button" type="button" >Join Club Now!</button>
+                    <button id="button" type="button" >Download App</button>
                 </div>
             </div>
             <div class="hero_right">
@@ -47,19 +47,59 @@
                         <h4 class="vedio_num">350+</h4>
                         <p class="All_dess tutorial">Vedio tutorial</p>
                     </div>
-
+                </div>
+            </div>  
+        </div>
+    </header>
+    <!-- main section start -->
+    <main>
+        <!-- habit section -->
+         <section class="habit_section">
+            <div>
+                <h3 class="habit_title">Change Your Habits</h3>
+                <p class="habit_description">We believe fitness should be accessible to everyone, everywhere, regardless of income or <br> access to a gym.</p>
+            </div>
+            <div>
+                <div class="habit_images_container">
+                    <div>
+                        <img class="image" src="img/image 3.png" alt="">
+                        <h4 class="image_title">Movement</h4>
+                        <p class="image_description">We believe fitness should be <br> accessible to everyone</p>
+                    </div>
+                    <div>
+                        <img class="image" src="img/image 2.png" alt="">
+                        <h4 class="image_title">Time</h4>
+                        <p class="image_description">We believe fitness should be <br> accessible to everyone</p>
+                    </div>
+                    <div>
+                        <img class="image" src="img/image 4.png" alt="">
+                        <h4 class="image_title">Practice</h4>
+                        <p class="image_description">We believe fitness should be <br> accessible to everyone</p>
+                    </div>
+                    <div>
+                        <img class="image" src="img/image 5.png" alt="">
+                        <h4 class="image_title">Weight Loss</h4>
+                        <p class="image_description">We believe fitness should be <br> accessible to everyone</p>
+                    </div>
                 </div>
             </div>
+         </section>
+         <!-- Run section started -->
+          <section>
+            <div class="run_section_background run_section_flex">
+                <div>
+                    <h3 class="run_section_title">Run an Extra 
+                       <br> Mile Easily</h3>
+                    <p class="run_section_description" >We believe fitness should be accessible to everyone, <br> everywhere, regardless of income or access to a gym. With <br> hundreds of professional workouts.</p>
+                    <button class="run_section_button" type="button">Join Now</button>
+                </div>
+                <div>
+                    <img id="run_section_image" src="img/run.jpg" alt="">
 
+                </div>
 
-            
-        </div>
-        
-        
-
-
-    </header>
-    <main>
+            </div>
+          </section>
 
     </main>
     <footer>
