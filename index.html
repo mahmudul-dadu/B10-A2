@@ -54,7 +54,7 @@
     <!-- main section start -->
     <main>
         <!-- habit section -->
-         <section class="habit_section">
+        <section class="habit_section">
             <div>
                 <h3 class="habit_title">Change Your Habits</h3>
                 <p class="habit_description">We believe fitness should be accessible to everyone, everywhere, regardless of income or <br> access to a gym.</p>
@@ -87,10 +87,10 @@
          <!-- Run section started -->
           <section>
             <div class="run_section_background run_section_flex">
-                <div>
+                <div class="k">
                     <h3 class="run_section_title">Run an Extra 
                        <br> Mile Easily</h3>
-                    <p class="run_section_description" >We believe fitness should be accessible to everyone, <br> everywhere, regardless of income or access to a gym. With <br> hundreds of professional workouts.</p>
+                    <p class="run_section_description" >We believe fitness should be accessible to everyone, <br> everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
                     <button class="run_section_button" type="button">Join Now</button>
                 </div>
                 <div>
@@ -100,9 +100,162 @@
 
             </div>
           </section>
+          <!--   BMI section started  -->
+          <section>
+            <div class="BMI_title_margin">
+                <h3 class="BMI_title">BMI Calculator</h3>
+                <p class="BMI_title_description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+            </div>
+            <div class="BMI_section_background flex">
+                <div class="BMI_section_chart">
+                    <h5>BMI Calculator Chart</h5>
+                    <table>
+                        <tr>
+                            <th class="BMI_table_font">BMI</th>
+                            <th class="BMI_table_font">Weight Status</th>
+                        </tr>
+                        <tr>
+                            <td >Below 18.5</td>
+                            <td>Underweight</td>
+                        </tr>
+                        <tr>
+                            <td>18.5-24.9</td>
+                            <td>Healthy</td>
+                        </tr>
+                        <tr>
+                            <td>25.0</td>
+                            <td>Overweight</td>
+                        </tr>
+                        <tr>
+                            <td>30.0-and Above</td>
+                            <td>Obese</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="calculate_section">
+                    <h5>Calculate your BMI</h5>
+                    <p>We believe fitness should be accessible to everyone, everywhere, <br> regardless of income or access to a gym. </p>
+                    <div id="first_card_gap">
+                        <input class="card card_font_text" type="text" id="fname" name="firstname" placeholder="Height/cm">
+                        <input class="card card_font_text" type="text" id="fname" name="firstname" placeholder="Weight/kg">
+                    </div>
+                    
+                    <div class="second_card_gap">
+                        <input class="card card_font_text" type="text" id="fname" name="firstname" placeholder="Age">
+                    <select class="card card_font_text" id="sex" name="country" placeholder="Sex">
+                        <option value="australia">Sex</option>
+                        <option value="australia">Female</option>
+                        <option value="canada">Male</option>
+                    </select>
+                    </div>
+                    
+                    <div class="second_card_gap">
+                        <select  class="last_card card_font_text" id="country" name="country" placeholder="Select an activity factor">
+                            <option value="australia">Select an activity factor</option>
+                            <option value="australia">Abroad</option>
+                            <option value="canada">Rajakar</option>
+                            <option value="usa">Student</option>
+                        </select>
+                    </div>  
+                    <button class="BMI_section_button" type="button">Calculate</button>  
 
+                </div>
+            </div>
+          </section>
+
+          <!-- Team section started -->
+           <section class="trainer_team_section">
+            <h4>Meet Our Team</h4>
+            <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+
+
+            <div class="trainer_images_background">
+
+                <div class="trainer_images_container">
+                    <div class="image-container">
+                        <img src="img/trainer1.png"alt="image">
+                        <div class="overlay-text">
+                            <h6>Jerome Bell</h6>
+                            <p>Trainer</p>
+                        </div>
+                    </div> 
+                    <div class="image-container">
+                        <img src="img/trainer2.png"alt="image">
+                        <div class="overlay-text ">
+                            <h6>Cameron Willion</h6>
+                            <p>Trainer</p>
+                        </div>
+                    </div> 
+                    <div class="image-container">
+                        <img src="img/trainer3.png"alt="image">
+                        <div class="overlay-text">
+                            <h6>Darrell Steward</h6>
+                            <p>Trainer</p>
+                        </div>
+                    </div> 
+                    <div class="image-container">
+                        <img src="img/trainer4.png"alt="image">
+                        <div class="overlay-text">
+                            <h6>Dianne Russell</h6>
+                            <p>Trainer</p>
+                        </div>
+                    </div> 
+                    <div class="image-container">
+                        <img src="img/trainer5.png"alt="image">
+                        <div class="overlay-text">
+                            <h6>Cody Fisher</h6>
+                            <p>Trainer</p>
+                        </div>
+                    </div> 
+                    <div class="image-container">
+                        <img src="img/trainer6.png"alt="image">
+                        <div class="overlay-text">
+                            <h6>Theresa Webb</h6>
+                            <p>Trainer</p>
+                        </div>
+                    </div> 
+                </div>  
+            </div>
+        </section>
     </main>
     <footer>
+
+
+
+
+        
+        <section class="footer_section_background">
+            <div class="footer_flex">
+                <div class="footer_title">
+                    <h2 class="footer_title">Fitness</h2>
+                    <p>We believe fitness should be accessible to everyone, <br> everywhere, regardless of income or access to a gym. With <br> hundreds of professional workouts.</p>
+                </div>
+                <div class="footer_section_get_started footeer_flex ">
+                    <ul>
+                        <h5>Get Started</h5>
+                        <li><a href="" >Service</a></li>
+                        <li><a href="" >Contact Us</a></li>
+                        <li><a href="" >Affiliate Program</a></li>
+                        <li><a href="" >About Us</a></li>
+                    </ul>
+                    <ul>
+                        <h5>Get Started</h5>
+                        <li><a href="" >Fitness</a></li>
+                        <li><a href="" >Platform</a></li>
+                        <li><a href="" >Workout Library</a></li>
+                        <li><a href="" >App Design</a></li>
+                    </ul>   
+                </div>
+                
+            </div>    
+            <div class="footer_copyright footer_last_margine">
+                <h5>All right reserved @Fitness 2024</h5>
+            </div>
+    
+    
+    
+        </section>
+        
 
     </footer>
 
