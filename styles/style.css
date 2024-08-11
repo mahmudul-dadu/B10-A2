@@ -191,7 +191,9 @@ h2{
     font-weight: 900;
     color: white;
 }
-
+.right_button_flex{
+  display: flex;
+}
 /* habit section started*/
 .habit_section{
     /* position: relative; */
@@ -796,12 +798,16 @@ border-top: 2px solid rgba(255, 255, 255, 0.5);
                 0 0 5px #d4b995;
   }  
 
+
 @media screen and (min-width: 576px) and (max-width: 992px){
     *{
         margin: 0 auto;
     }
     .flex{
         flex-direction: column;
+    }
+    .right_button_flex{
+      display: flex;
     }
     .habit_images_container{
         grid-template-columns: repeat(2, 1fr);
@@ -903,9 +909,11 @@ border-top: 2px solid rgba(255, 255, 255, 0.5);
       justify-content: space-between;
       color: rgb(255, 255, 254);
     }
-    .hamburg span{
-      font-size: 2rem;
+    .ri-menu-fill{
+      color: white;
+      font-size: 3rem;
     }
+
     
     .hidden-element {
         display: none;
