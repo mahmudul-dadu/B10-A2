@@ -1203,6 +1203,16 @@ padding-bottom: 35px;
       flex-direction: column;
       margin-top: 2rem;
      }
+     .bmi_box{
+      width: 150%;
+    }
+    .bmi_boxoption_box{
+      width: 150%;
+    }
+    .last_bmi_box{
+      width: 150%;
+    }
+
   
 
 
